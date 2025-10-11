@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teacha - Fresh Bubble Tea</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: {
+                            light: '#7a9a6d',
+                            DEFAULT: '#5a7a4d',
+                            dark: '#4a6a3d',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-sans bg-white text-gray-800">
+    <header class="bg-white py-12 pb-8 border-b border-gray-200">
+        <nav class="max-w-4xl mx-auto text-center px-4">
+            <div class="text-5xl font-bold text-primary flex items-center justify-center gap-2">🍵 teacha</div>
+            <p class="text-primary-light mt-2">Fresh Bubble Tea</p>
+        </nav>
+    </header>
+
+    <section class="py-16 px-4">
+        <div class="max-w-4xl mx-auto">
+            <div class="space-y-12">
+                <div class="group hover:bg-gray-50 p-6 rounded-lg transition-all duration-300">
+                    <div class="flex items-center mb-3">
+                        <span class="text-3xl mr-3">🧋</span>
+                        <h3 class="text-xl font-medium text-primary">What is Bubble Tea?</h3>
+                    </div>
+                    <p class="text-gray-600 ml-10">Bubble tea is a delightful beverage combining fresh tea with milk, sweetness, and chewy tapioca pearls. Originating from Taiwan, it's the perfect blend of taste and texture—refreshing, fun, and endlessly customizable to your preferences.</p>
+                </div>
+                
+                <div class="group hover:bg-gray-50 p-6 rounded-lg transition-all duration-300">
+                    <div class="flex items-center mb-3">
+                        <span class="text-3xl mr-3">🍵</span>
+                        <h3 class="text-xl font-medium text-primary">Matcha Magic</h3>
+                    </div>
+                    <p class="text-gray-600 ml-10">Matcha is a powdered green tea celebrated for its vibrant color and smooth, earthy flavor. Rich in antioxidants and L-theanine, it provides sustained energy without the jitters, making it the perfect choice for a mindful moment.</p>
+                </div>
+                
+                <div class="group hover:bg-gray-50 p-6 rounded-lg transition-all duration-300">
+                    <div class="flex items-center mb-3">
+                        <span class="text-3xl mr-3">✨</span>
+                        <h3 class="text-xl font-medium text-primary">Your Perfect Cup</h3>
+                    </div>
+                    <p class="text-gray-600 ml-10">At Teacha, we craft each drink with premium ingredients and let you customize everything—from ice levels to sugar content to your favorite toppings. Every sip is made exactly how you love it.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-12 px-4">
+        <div class="max-w-4xl mx-auto">
+            <table class="w-full border-collapse mb-12">
+                <thead class="hidden">
+                    <tr>
+                        <th>Item</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="bg-gray-50 font-semibold text-primary uppercase tracking-wider text-sm text-center">
+                        <td colspan="2" class="py-3">Fresh Fruit Tea</td>
+                    </tr>
+                    <tr class="border-b border-gray-100 hover:bg-gray-50 transition-colors">
+                        <td class="py-4 px-4 text-gray-800">Lychee Tea</td>
+                        <td class="py-4 px-4 text-right text-primary font-semibold whitespace-nowrap">M: 120,- / L: 130,-</td>
+                    </tr>
+                    <tr class="border-b border-gray-100 hover:bg-gray-50 transition-colors">
+                        <td class="py-4 px-4 text-gray-800">Strawberry Tea</td>
+                        <td class="py-4 px-4 text-right text-primary font-semibold whitespace-nowrap">M: 120,- / L: 130,-</td>
+                    </tr>
+                    <tr class="border-b border-gray-100 hover:bg-gray-50 transition-colors">
+                        <td class="py-4 px-4 text-gray-800">Lychee Red Butterfly Tea</td>
+                        <td class="py-4 px-4 text-right text-primary font-semibold whitespace-nowrap">M: 120,- / L: 130,-</td>
+                    </tr>
+                    <tr class="border-b border-gray-100 hover:bg-gray-50 transition-colors">
+                        <td class="py-4 px-4 text-gray-800">Passion Fruit Tea</td>
+                        <td class="py-4 px-4 text-right text-primary font-semibold whitespace-nowrap">M: 120,- / L: 130,-</td>
+                    </tr>
+                    <tr class="border-b border-gray-100 hover:bg-gray-50 transition-colors">
+                        <td class="py-4 px-4 text-gray-800">Mango Passion Fruit Tea</td>
+                        <td class="py-4 px-4 text-right text-primary font-semibold whitespace-nowrap">M: 120,- / L: 130,-</td>
+                    </tr>
+                    <tr class="border-b border-gray-100 hover:bg-gray-50 transition-colors">
+                        <td class="py-4 px-4 text-gray-800">Mango Lemon Tea</td>
+                        <td class="py-4 px-4 text-right text-primary font-semibold whitespace-nowrap">M: 120,- / L: 130,-</td>
+                    </tr>
+                    <tr class="border-b border-gray-100 hover:bg-gray-50 transition-colors">
+                        <td class="py-4 px-4 text-gray-800">Lemon Ice Tea</td>
+                        <td class="py-4 px-4 text-right text-primary font-semibold whitespace-nowrap">M: 120,- / L: 130,-</td>
+                    </tr>
+                    <tr class="border-b border-gray-100 hover:bg-gray-50 transition-colors">
+                        <td class="py-4 px-4 text-gray-800">Vietnamese Peach Ice Tea</td>
+                        <td class="py-4 px-4 text-right text-primary font-semibold whitespace-nowrap">M: 120,- / L: 130,-</td>
+                    </tr>
+                    
+                    <tr class="bg-gray-50 font-semibold text-primary uppercase tracking-wider text-sm text-center">
+                        <td colspan="2" class="py-3">Tea</td>
+                    </tr>
+                    <tr class="border-b border-gray-100 hover:bg-gray-50 transition-colors">
+                        <td class="py-4 px-4 text-gray-800">Jasmine Tea</td>
+                        <td class="py-4 px-4 text-right text-primary font-semibold whitespace-nowrap">M: 100,- / L: 110,-</td>
+                    </tr>
+                    
+                    <tr class="bg-gray-50 font-semibold text-primary uppercase tracking-wider text-sm text-center">
+                        <td colspan="2" class="py-3">Traditional Milk Tea</td>
+                    </tr>
+                    <tr class="border-b border-gray-100 hover:bg-gray-50 transition-colors">
+                        <td class="py-4 px-4 text-gray-800">Ceylon Milk Tea</td>
+                        <td class="py-4 px-4 text-right text-primary font-semibold whitespace-nowrap">M: 110,- / L: 120,-</td>
+                    </tr>
+                    <tr class="border-b border-gray-100 hover:bg-gray-50 transition-colors">
+                        <td class="py-4 px-4 text-gray-800">Jasmine Milk Tea</td>
+                        <td class="py-4 px-4 text-right text-primary font-semibold whitespace-nowrap">M: 110,- / L: 120,-</td>
+                    </tr>
+                    <tr class="border-b border-gray-100 hover:bg-gray-50 transition-colors">
+                        <td class="py-4 px-4 text-gray-800">Oolong Milk Tea</td>
+                        <td class="py-4 px-4 text-right text-primary font-semibold whitespace-nowrap">M: 110,- / L: 120,-</td>
+                    </tr>
+                    
+                    <tr class="bg-gray-50 font-semibold text-primary uppercase tracking-wider text-sm text-center">
+                        <td colspan="2" class="py-3">Special Milk Tea</td>
+                    </tr>
+                    <tr class="border-b border-gray-100 hover:bg-gray-50 transition-colors">
+                        <td class="py-4 px-4 text-gray-800">Brown Sugar Milk Tea/Fresh Milk</td>
+                        <td class="py-4 px-4 text-right text-primary font-semibold whitespace-nowrap">M: 120,- / L: 130,-</td>
+                    </tr>
+                    <tr class="border-b border-gray-100 hover:bg-gray-50 transition-colors">
+                        <td class="py-4 px-4 text-gray-800">Taro/Taro Coco Milk Tea</td>
+                        <td class="py-4 px-4 text-right text-primary font-semibold whitespace-nowrap">M: 120,- / L: 130,-</td>
+                    </tr>
+                    <tr class="border-b border-gray-100 hover:bg-gray-50 transition-colors">
+                        <td class="py-4 px-4 text-gray-800">Matcha Milk Tea</td>
+                        <td class="py-4 px-4 text-right text-primary font-semibold whitespace-nowrap">M: 120,- / L: 130,-</td>
+                    </tr>
+                    <tr class="border-b border-gray-100 hover:bg-gray-50 transition-colors">
+                        <td class="py-4 px-4 text-gray-800">Mango Milk Tea</td>
+                        <td class="py-4 px-4 text-right text-primary font-semibold whitespace-nowrap">M: 120,- / L: 130,-</td>
+                    </tr>
+                    <tr class="border-b border-gray-100 hover:bg-gray-50 transition-colors">
+                        <td class="py-4 px-4 text-gray-800">Strawberry Milk Tea</td>
+                        <td class="py-4 px-4 text-right text-primary font-semibold whitespace-nowrap">M: 120,- / L: 130,-</td>
+                    </tr>
+                    
+                    <tr class="bg-gray-50 font-semibold text-primary uppercase tracking-wider text-sm text-center">
+                        <td colspan="2" class="py-3">Matcha Latte</td>
+                    </tr>
+                    <tr class="border-b border-gray-100 hover:bg-gray-50 transition-colors">
+                        <td class="py-4 px-4 text-gray-800">Classic Matcha Latte<br><span class="text-sm text-primary-light">milk, matcha</span></td>
+                        <td class="py-4 px-4 text-right text-primary font-semibold whitespace-nowrap">S: 115,- / M: 125,-</td>
+                    </tr>
+                    <tr class="border-b border-gray-100 hover:bg-gray-50 transition-colors">
+                        <td class="py-4 px-4 text-gray-800">Mango Matcha Latte<br><span class="text-sm text-primary-light">milk, mango, matcha</span></td>
+                        <td class="py-4 px-4 text-right text-primary font-semibold whitespace-nowrap">S: 125,- / M: 135,-</td>
+                    </tr>
+                    <tr class="border-b border-gray-100 hover:bg-gray-50 transition-colors">
+                        <td class="py-4 px-4 text-gray-800">Strawberry Matcha Latte<br><span class="text-sm text-primary-light">milk, strawberry, matcha</span></td>
+                        <td class="py-4 px-4 text-right text-primary font-semibold whitespace-nowrap">S: 125,- / M: 135,-</td>
+                    </tr>
+                    <tr class="border-b border-gray-100 hover:bg-gray-50 transition-colors">
+                        <td class="py-4 px-4 text-gray-800">Jasmine Oat Latte<br><span class="text-sm text-primary-light">oat milk, jasmine tea, matcha</span></td>
+                        <td class="py-4 px-4 text-right text-primary font-semibold whitespace-nowrap">S: 125,- / M: 135,-</td>
+                    </tr>
+                    <tr class="border-b border-gray-100 hover:bg-gray-50 transition-colors">
+                        <td class="py-4 px-4 text-gray-800">Iced Cold Whisk Matcha</td>
+                        <td class="py-4 px-4 text-right text-primary font-semibold whitespace-nowrap">S: 125,- / M: 135,-</td>
+                    </tr>
+                    
+                    <tr class="bg-gray-50 font-semibold text-primary uppercase tracking-wider text-sm text-center">
+                        <td colspan="2" class="py-3">Matcha Cloud</td>
+                    </tr>
+                    <tr class="border-b border-gray-100 hover:bg-gray-50 transition-colors">
+                        <td class="py-4 px-4 text-gray-800">Coconut Cloud<br><span class="text-sm text-primary-light">coconut water, matcha cloud</span></td>
+                        <td class="py-4 px-4 text-right text-primary font-semibold whitespace-nowrap">S: 125,- / M: 135,-</td>
+                    </tr>
+                    <tr class="border-b border-gray-100 hover:bg-gray-50 transition-colors">
+                        <td class="py-4 px-4 text-gray-800">Strawberry Cloud<br><span class="text-sm text-primary-light">milk, matcha, strawberry cloud</span></td>
+                        <td class="py-4 px-4 text-right text-primary font-semibold whitespace-nowrap">S: 125,- / M: 135,-</td>
+                    </tr>
+                    <tr class="border-b border-gray-100 hover:bg-gray-50 transition-colors">
+                        <td class="py-4 px-4 text-gray-800">Milky Matcha Cloud<br><span class="text-sm text-primary-light">milk, condensed milk, matcha cloud</span></td>
+                        <td class="py-4 px-4 text-right text-primary font-semibold whitespace-nowrap">S: 125,- / M: 135,-</td>
+                    </tr>
+                    <tr class="border-b border-gray-100 hover:bg-gray-50 transition-colors">
+                        <td class="py-4 px-4 text-gray-800">Jasmine Tea Cloud<br><span class="text-sm text-primary-light">jasmine tea, matcha cloud</span></td>
+                        <td class="py-4 px-4 text-right text-primary font-semibold whitespace-nowrap">S: 125,- / M: 135,-</td>
+                    </tr>
+                    <tr class="border-b border-gray-100 hover:bg-gray-50 transition-colors">
+                        <td class="py-4 px-4 text-gray-800">Oreo Matcha<br><span class="text-sm text-primary-light">milk, condensed milk, oreo, matcha cloud</span></td>
+                        <td class="py-4 px-4 text-right text-primary font-semibold whitespace-nowrap">S: 125,- / M: 135,-</td>
+                    </tr>
+                    
+                    <tr class="bg-gray-50 font-semibold text-primary uppercase tracking-wider text-sm text-center">
+                        <td colspan="2" class="py-3">Vietnamese Ca Phe</td>
+                    </tr>
+                    <tr class="border-b border-gray-100 hover:bg-gray-50 transition-colors">
+                        <td class="py-4 px-4 text-gray-800">Ca Phe Nau<br><span class="text-sm text-primary-light">coffee, condensed milk</span></td>
+                        <td class="py-4 px-4 text-right text-primary font-semibold whitespace-nowrap">M: 100,-</td>
+                    </tr>
+                    <tr class="border-b border-gray-100 hover:bg-gray-50 transition-colors">
+                        <td class="py-4 px-4 text-gray-800">Bac Xiu<br><span class="text-sm text-primary-light">coffee, fresh milk, condensed milk</span></td>
+                        <td class="py-4 px-4 text-right text-primary font-semibold whitespace-nowrap">M: 100,-</td>
+                    </tr>
+                    <tr class="border-b border-gray-100 hover:bg-gray-50 transition-colors">
+                        <td class="py-4 px-4 text-gray-800">Ca Phe Cot Dua<br><span class="text-sm text-primary-light">coffee, coconut milk, condensed milk</span></td>
+                        <td class="py-4 px-4 text-right text-primary font-semibold whitespace-nowrap">M: 110,-</td>
+                    </tr>
+                    <tr class="border-b border-gray-100 hover:bg-gray-50 transition-colors">
+                        <td class="py-4 px-4 text-gray-800">Ca Phe Muoi<br><span class="text-sm text-primary-light">coffee, fresh milk, condensed milk, salted cream</span></td>
+                        <td class="py-4 px-4 text-right text-primary font-semibold whitespace-nowrap">M: 120,-</td>
+                    </tr>
+                    <tr class="border-b border-gray-100 hover:bg-gray-50 transition-colors">
+                        <td class="py-4 px-4 text-gray-800">Ca Phe Trung<br><span class="text-sm text-primary-light">coffee, fresh milk, condensed milk, egg cream</span></td>
+                        <td class="py-4 px-4 text-right text-primary font-semibold whitespace-nowrap">M: 120,-</td>
+                    </tr>
+
+                    <tr class="bg-gray-50 font-semibold text-primary uppercase tracking-wider text-sm text-center">
+                        <td colspan="2" class="py-3">Toppings</td>
+                    </tr>
+                    <tr class="border-b border-gray-100 hover:bg-gray-50 transition-colors">
+                        <td class="py-4 px-4 text-gray-800">Black Tapioca</td>
+                        <td class="py-4 px-4 text-right text-primary font-semibold whitespace-nowrap">+20,-</td>
+                    </tr>
+                    <tr class="border-b border-gray-100 hover:bg-gray-50 transition-colors">
+                        <td class="py-4 px-4 text-gray-800">White Tapioca</td>
+                        <td class="py-4 px-4 text-right text-primary font-semibold whitespace-nowrap">+20,-</td>
+                    </tr>
+                    <tr class="border-b border-gray-100 hover:bg-gray-50 transition-colors">
+                        <td class="py-4 px-4 text-gray-800">Fruit Jelly</td>
+                        <td class="py-4 px-4 text-right text-primary font-semibold whitespace-nowrap">+20,-</td>
+                    </tr>
+                    <tr class="border-b border-gray-100 hover:bg-gray-50 transition-colors">
+                        <td class="py-4 px-4 text-gray-800">Fruit Boba</td>
+                        <td class="py-4 px-4 text-right text-primary font-semibold whitespace-nowrap">+20,-</td>
+                    </tr>
+                    <tr class="border-b border-gray-100 hover:bg-gray-50 transition-colors">
+                        <td class="py-4 px-4 text-gray-800">Cheese Foam</td>
+                        <td class="py-4 px-4 text-right text-primary font-semibold whitespace-nowrap">+20,-</td>
+                    </tr>
+                    <tr class="border-b border-gray-100 hover:bg-gray-50 transition-colors">
+                        <td class="py-4 px-4 text-gray-800">Creme Brulee</td>
+                        <td class="py-4 px-4 text-right text-primary font-semibold whitespace-nowrap">+20,-</td>
+                    </tr>
+                    
+                    <tr class="bg-gray-50 font-semibold text-primary uppercase tracking-wider text-sm text-center">
+                        <td colspan="2" class="py-3">Ice Level</td>
+                    </tr>
+                    <tr class="border-b border-gray-100 hover:bg-gray-50 transition-colors">
+                        <td class="py-4 px-4 text-gray-800">Regular Ice</td>
+                        <td class="py-4 px-4 text-right text-primary font-semibold whitespace-nowrap">—</td>
+                    </tr>
+                    <tr class="border-b border-gray-100 hover:bg-gray-50 transition-colors">
+                        <td class="py-4 px-4 text-gray-800">Less Ice</td>
+                        <td class="py-4 px-4 text-right text-primary font-semibold whitespace-nowrap">—</td>
+                    </tr>
+                    <tr class="border-b border-gray-100 hover:bg-gray-50 transition-colors">
+                        <td class="py-4 px-4 text-gray-800">No Ice</td>
+                        <td class="py-4 px-4 text-right text-primary font-semibold whitespace-nowrap">—</td>
+                    </tr>
+                    
+                    <tr class="bg-gray-50 font-semibold text-primary uppercase tracking-wider text-sm text-center">
+                        <td colspan="2" class="py-3">Sugar Level</td>
+                    </tr>
+                    <tr class="border-b border-gray-100 hover:bg-gray-50 transition-colors">
+                        <td class="py-4 px-4 text-gray-800">100%</td>
+                        <td class="py-4 px-4 text-right text-primary font-semibold whitespace-nowrap">—</td>
+                    </tr>
+                    <tr class="border-b border-gray-100 hover:bg-gray-50 transition-colors">
+                        <td class="py-4 px-4 text-gray-800">80%</td>
+                        <td class="py-4 px-4 text-right text-primary font-semibold whitespace-nowrap">—</td>
+                    </tr>
+                    <tr class="border-b border-gray-100 hover:bg-gray-50 transition-colors">
+                        <td class="py-4 px-4 text-gray-800">50%</td>
+                        <td class="py-4 px-4 text-right text-primary font-semibold whitespace-nowrap">—</td>
+                    </tr>
+                    <tr class="border-b border-gray-100 hover:bg-gray-50 transition-colors">
+                        <td class="py-4 px-4 text-gray-800">30%</td>
+                        <td class="py-4 px-4 text-right text-primary font-semibold whitespace-nowrap">—</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section class="py-16 px-4 mt-8 bg-gradient-to-br from-white to-gray-50">
+        <div class="max-w-4xl mx-auto">
+            <div class="flex items-center mb-6">
+                <span class="text-3xl mr-3">🍵</span>
+                <h2 class="text-3xl font-bold text-primary">Visit Us</h2>
+            </div>
+            <p class="text-gray-600 leading-relaxed mb-8 max-w-2xl ml-10">
+                Experience the perfect blend of quality and flavor at one of our two locations. Whether you're in Žižkov or Krakov, we're ready to serve you fresh, delicious bubble tea crafted to your taste.
+            </p>
+            
+            <div class="grid md:grid-cols-2 gap-8 mt-8">
+                <div class="p-4 hover:bg-white hover:bg-opacity-50 rounded-lg transition-all duration-300">
+                    <div class="flex items-center mb-3">
+                        <span class="text-2xl mr-3">🪴</span>
+                        <h3 class="text-lg font-semibold text-primary">Teacha Žižkov</h3>
+                    </div>
+                    <p class="text-gray-600 ml-9">Seifertova 560/49<br>130 00 Praha 3</p>
+                </div>
+                <div class="p-4 hover:bg-white hover:bg-opacity-50 rounded-lg transition-all duration-300">
+                    <div class="flex items-center mb-3">
+                        <span class="text-2xl mr-3">🪴</span>
+                        <h3 class="text-lg font-semibold text-primary">Teacha Krakov</h3>
+                    </div>
+                    <p class="text-gray-600 ml-9">Lodžská 850/6<br>181 00 Praha 8</p>
+                </div>
+            </div>
+            
+            <div class="mt-12 p-4 hover:bg-white hover:bg-opacity-50 rounded-lg transition-all duration-300">
+                <div class="flex items-center mb-3">
+                    <span class="text-2xl mr-3">💬</span>
+                    <h3 class="text-lg font-semibold text-primary">Contact Us</h3>
+                </div>
+                <div class="ml-9 space-y-2">
+                    <p class="flex items-center text-gray-600">
+                        <span class="text-xl mr-3">✉️</span>
+                        <a href="mailto:info@teacha.cz" class="hover:text-primary transition-colors">info@teacha.cz</a>
+                    </p>
+                    <p class="flex items-center text-gray-600">
+                        <span class="text-xl mr-3">📱</span>
+                        <a href="tel:+420608899952" class="hover:text-primary transition-colors">+420 608 899 952</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-50 py-8 px-4 text-center border-t border-gray-200">
+        <p class="text-gray-600 text-sm">&copy; 2025 Teacha. Fresh Bubble Tea.</p>
+    </footer>
+</body>
+</html>
