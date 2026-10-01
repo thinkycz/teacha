@@ -1,0 +1,27 @@
+    <main id="main">
+      <section class="container location-hero">
+        <a class="text-link" href="{{HOME}}#visit">{{BACK_TO_LOCATIONS}}</a>
+        <p class="eyebrow">{{DISTRICT}}</p>
+        <h1>{{LOCATION_HEADING}}</h1>
+        <p class="location-intro">{{LOCATION_DESCRIPTION}}</p>
+        <a class="button" href="{{HOME}}#menu">{{VIEW_MENU}}</a>
+      </section>
+      <section class="container location-grid" aria-label="{{LOCATION_INFORMATION}}">
+        <article class="branch">
+          <h2>{{FIND_US}}</h2>
+          {{ADDRESS}}
+          <a class="branch-details-link" href="{{MAP_URL}}" target="_blank" rel="noopener noreferrer">{{DIRECTIONS}}</a>
+          <div class="location-contact">
+            <a href="mailto:{{EMAIL}}">{{EMAIL}}</a>
+            <a href="tel:{{PHONE_RAW}}">{{PHONE_DISPLAY}}</a>
+          </div>
+        </article>
+        <article class="branch">
+          <h2>{{DRINK_HEADING}}</h2>
+          <p>{{DRINK_COPY}}</p>
+          <a class="branch-details-link" href="{{HOME}}#menu">{{VIEW_MENU}}</a>
+          <p>{{OTHER_BRANCH_COPY}} <a class="branch-details-link" href="{{OTHER_BRANCH_PATH}}">{{OTHER_BRANCH_NAME}}</a></p>
+        </article>
+      </section>
+      {{DELIVERY}}
+    </main>

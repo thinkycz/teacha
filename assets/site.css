@@ -275,7 +275,7 @@ a:hover {
   align-items: center;
   gap: 2px;
 }
-.languages button {
+.languages a {
   border: 0;
   background: transparent;
   font-size: 11px;
@@ -286,7 +286,7 @@ a:hover {
   padding: 8px 6px;
   position: relative;
 }
-.languages button[aria-pressed="true"] {
+.languages a[aria-current="page"] {
   background: var(--white);
   box-shadow: 0 2px 6px #244a3210;
 }
@@ -1592,3 +1592,19 @@ dd {
     animation: none !important;
   }
 }
+
+/* Shared location pages use the existing site typography and cards. */
+.languages a { text-align: center; }
+.branch-details-link { display: inline-block; margin-top: 18px; text-decoration: underline; text-underline-offset: 4px; font-weight: 700; }
+.location-hero { padding-top: 58px; padding-bottom: 42px; }
+.location-hero h1 { font-size: clamp(36px, 5vw, 64px); line-height: 1.1; max-width: 850px; margin: 16px 0 24px; letter-spacing: -0.04em; }
+.location-intro { max-width: 700px; font-size: 19px; }
+.location-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; padding-bottom: 64px; }
+.location-grid h2 { font-size: 28px; line-height: 1.2; }
+.location-grid .branch { min-width: 0; }
+.location-contact { display: flex; flex-wrap: wrap; gap: 12px 24px; margin-top: 24px; }
+.location-contact a { text-decoration: underline; }
+@media (max-width: 800px) { .location-grid { grid-template-columns: 1fr; } .location-hero { padding-top: 32px; } }
+
+.hero h1 .hero-heading-context { display: block; font-size: 18px; line-height: 1.5; font-weight: 700; letter-spacing: 0; margin-top: 18px; }
+.delivery-section .eyebrow { color: var(--ink); }

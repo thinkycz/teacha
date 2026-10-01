@@ -1,0 +1,73 @@
+{
+  "origin": "https://teacha.cz",
+  "name": "Teacha",
+  "legalName": "Teacha Matcha s.r.o.",
+  "companyId": "24651109",
+  "email": "matcha@teacha.cz",
+  "phone": "+420608899952",
+  "phoneDisplay": "+420 608 899 952",
+  "registeredOffice": {
+    "streetAddress": "Příčná 1892/4, Nové Město",
+    "postalCode": "110 00",
+    "addressLocality": "Praha 1",
+    "addressCountry": "CZ"
+  },
+  "social": [
+    "https://www.instagram.com/teacha.matcha/",
+    "https://www.tiktok.com/@teacha.cz"
+  ],
+  "branches": [
+    {
+      "id": "zizkov",
+      "name": "Teacha Žižkov",
+      "label": "Žižkov",
+      "district": {
+        "cs": "Praha 3",
+        "en": "Prague 3"
+      },
+      "paths": {
+        "cs": "/pobocky/zizkov/",
+        "en": "/en/locations/zizkov/"
+      },
+      "address": {
+        "streetAddress": "Seifertova 560/49",
+        "postalCode": "130 00",
+        "addressLocality": "Praha 3",
+        "addressCountry": "CZ"
+      },
+      "delivery": true,
+      "description": {
+        "cs": "Matcha latte, ovocný čaj nebo bubble tea na Žižkově? Stav se v Teacha na Seifertově 560/49 v Praze 3. Vyber si drink z našeho menu, nebo si objednej rozvoz ze Žižkova.",
+        "en": "Looking for matcha latte, fruit tea or bubble tea in Žižkov? Visit Teacha at Seifertova 560/49 in Prague 3. Choose a drink from our menu or order delivery from our Žižkov branch."
+      }
+    },
+    {
+      "id": "arkady-pankrac",
+      "name": "Teacha Arkády Pankrác",
+      "label": "Arkády Pankrác",
+      "district": {
+        "cs": "Praha 4",
+        "en": "Prague 4"
+      },
+      "paths": {
+        "cs": "/pobocky/arkady-pankrac/",
+        "en": "/en/locations/arkady-pankrac/"
+      },
+      "address": {
+        "streetAddress": "Na Pankráci 1727/86",
+        "postalCode": "140 00",
+        "addressLocality": "Praha 4 – Nusle",
+        "addressCountry": "CZ"
+      },
+      "floor": {
+        "cs": "OC Arkády Pankrác, patro -1",
+        "en": "OC Arkády Pankrác, floor -1"
+      },
+      "delivery": false,
+      "description": {
+        "cs": "Dej si malou čajovou pauzu v OC Arkády Pankrác. Teacha najdeš v patře -1 na adrese Na Pankráci 1727/86, Praha 4 – Nusle. Vyber si matcha latte, ovocný čaj nebo bubble tea a stav se za námi.",
+        "en": "Take a little tea break at OC Arkády Pankrác. Find Teacha on floor -1 at Na Pankráci 1727/86, Prague 4 – Nusle. Pick your matcha latte, fruit tea or bubble tea and visit us."
+      }
+    }
+  ]
+}

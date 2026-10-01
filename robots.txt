@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /tmp/
+Disallow: /output/
+Disallow: /site/
+Disallow: /scripts/
+
+Sitemap: https://teacha.cz/sitemap.xml
